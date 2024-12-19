@@ -1,0 +1,1240 @@
+[
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithOneYearController",
+    "Method": "requestAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithOneYear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnnualDepositValue",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithOneYearController",
+    "Method": "getAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithOneYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithOneYearController",
+    "Method": "deleteAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithOneYear",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithOneYearController",
+    "Method": "acceptAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithOneYear/acceptAnnualDeposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithOneYearController",
+    "Method": "depositAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithOneYear/deposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDepositCashing",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithOneYearController",
+    "Method": "reNewAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithOneYear/reNewAnnualDeposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "annualDepositPeriod",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "annualDepositType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithOneYearController",
+    "Method": "TransferAnnualDepositToAccount",
+    "RelativePath": "api/AnnualDepositWithOneYear/TransferAnnualDepositToAccount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithThreeYearsController",
+    "Method": "requestAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithThreeYears",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnnualDepositValue",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithThreeYearsController",
+    "Method": "getAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithThreeYears",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithThreeYearsController",
+    "Method": "deleteAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithThreeYears",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithThreeYearsController",
+    "Method": "acceptAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithThreeYears/acceptAnnualDeposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithThreeYearsController",
+    "Method": "depositAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithThreeYears/deposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDepositCashing",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithThreeYearsController",
+    "Method": "reNewAnnualDeposit",
+    "RelativePath": "api/AnnualDepositWithThreeYears/reNewAnnualDeposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "annualDepositPeriod",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "annualDepositType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.AnnualDepositWithThreeYearsController",
+    "Method": "TransferAnnualDepositToAccount",
+    "RelativePath": "api/AnnualDepositWithThreeYears/TransferAnnualDepositToAccount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "annualDepositId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.AnnualDeposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CurrentAccountController",
+    "Method": "createCurrentAccount",
+    "RelativePath": "api/CurrentAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "balance",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Account",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CurrentAccountController",
+    "Method": "getAccount",
+    "RelativePath": "api/CurrentAccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Dto.AccountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CurrentAccountController",
+    "Method": "deleteCurrentAccount",
+    "RelativePath": "api/CurrentAccount",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CurrentAccountController",
+    "Method": "transferToAnotherAccount",
+    "RelativePath": "api/CurrentAccount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sentAccountId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "receivedAccountId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "transferValue",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Transfer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CurrentAccountController",
+    "Method": "deposit",
+    "RelativePath": "api/CurrentAccount/deposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CurrentAccountController",
+    "Method": "withdraw",
+    "RelativePath": "api/CurrentAccount/withdraw",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.EmployeeController",
+    "Method": "createEmployee",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "phone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "age",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "identityNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Employee",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.EmployeeController",
+    "Method": "getEmployee",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Employee",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.EmployeeController",
+    "Method": "signin",
+    "RelativePath": "api/Employee/signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Employee",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.FinanceController",
+    "Method": "requestFinance",
+    "RelativePath": "api/Finance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "financeValue",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FinancePeriod",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Finance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.FinanceController",
+    "Method": "getFinance",
+    "RelativePath": "api/Finance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Finance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.FinanceController",
+    "Method": "acceptFinance",
+    "RelativePath": "api/Finance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Finance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.FinanceController",
+    "Method": "deleteFinance",
+    "RelativePath": "api/Finance",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "banking.Controllers.FinanceController",
+    "Method": "repaidFinance",
+    "RelativePath": "api/Finance/repaidFinance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Finance",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.SavingAccountController",
+    "Method": "createCurrentAccount",
+    "RelativePath": "api/SavingAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "balance",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Account",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.SavingAccountController",
+    "Method": "getAccount",
+    "RelativePath": "api/SavingAccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Dto.AccountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.SavingAccountController",
+    "Method": "deleteSavingAccount",
+    "RelativePath": "api/SavingAccount",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.SavingAccountController",
+    "Method": "deposit",
+    "RelativePath": "api/SavingAccount/deposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.SavingAccountController",
+    "Method": "withdraw",
+    "RelativePath": "api/SavingAccount/withdraw",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.VipAccountController",
+    "Method": "createCurrentAccount",
+    "RelativePath": "api/VipAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "balance",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Account",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.VipAccountController",
+    "Method": "getAccount",
+    "RelativePath": "api/VipAccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Dto.AccountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.VipAccountController",
+    "Method": "deleteVipAccount",
+    "RelativePath": "api/VipAccount",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "banking.Controllers.VipAccountController",
+    "Method": "transferToAnotherAccount",
+    "RelativePath": "api/VipAccount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sentAccountId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "receivedAccountId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "transferValue",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Transfer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.VipAccountController",
+    "Method": "deposit",
+    "RelativePath": "api/VipAccount/deposit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.VipAccountController",
+    "Method": "withdraw",
+    "RelativePath": "api/VipAccount/withdraw",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "value",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.Deposit",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CustomerController",
+    "Method": "createCustomer",
+    "RelativePath": "apiCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "banking.Dto.CustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Dto.CustomerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CustomerController",
+    "Method": "getCustomer",
+    "RelativePath": "apiCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Dto.CustomerDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "banking.Controllers.CustomerController",
+    "Method": "deleteCustomer",
+    "RelativePath": "apiCustomer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "banking.Controllers.CustomerController",
+    "Method": "signin",
+    "RelativePath": "apiCustomer/signIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "banking.Models.SigningResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

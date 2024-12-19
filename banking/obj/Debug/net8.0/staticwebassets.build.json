@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HoZL0TWyboNV9OCBab1fhnp0jNXTchFputig8KbyH6w=",
+  "Source": "banking",
+  "BasePath": "_content/banking",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\banking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|d:\\projects\\banking\\banking\\services\\signingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|solutionrelative:banking\\services\\signingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|d:\\projects\\banking\\banking\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|solutionrelative:banking\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|d:\\projects\\banking\\banking\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|solutionrelative:banking\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|d:\\projects\\banking\\banking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|solutionrelative:banking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|d:\\projects\\banking\\banking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE02A0-27D3-4FFB-ADC6-BCA5057FCAAA}|banking\\banking.csproj|solutionrelative:banking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Projects\\banking\\banking\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "banking\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Projects\\banking\\banking\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "banking\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T09:05:12.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SigningService.cs",
+              "DocumentMoniker": "D:\\Projects\\banking\\banking\\Services\\SigningService.cs",
+              "RelativeDocumentMoniker": "banking\\Services\\SigningService.cs",
+              "ToolTip": "D:\\Projects\\banking\\banking\\Services\\SigningService.cs",
+              "RelativeToolTip": "banking\\Services\\SigningService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwCQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T08:44:41.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\banking\\banking\\appsettings.json",
+              "RelativeDocumentMoniker": "banking\\appsettings.json",
+              "ToolTip": "D:\\Projects\\banking\\banking\\appsettings.json",
+              "RelativeToolTip": "banking\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T08:33:37.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\banking\\banking\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "banking\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\banking\\banking\\AppDbContext.cs",
+              "RelativeToolTip": "banking\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:13:34.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\banking\\banking\\Program.cs",
+              "RelativeDocumentMoniker": "banking\\Program.cs",
+              "ToolTip": "D:\\Projects\\banking\\banking\\Program.cs",
+              "RelativeToolTip": "banking\\Program.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:34:47.41Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
